@@ -1,0 +1,17 @@
+rails new
+  rails _4.2.3_ new apitest -d postgresql
+  cd gmap/
+  bundle install
+
+Gemfile
+ gem 'activeresource'
+  
+rails g
+  rails g model api --migration=false
+
+github
+$ git init 
+$ git remote add origin git@github.com:gen-ishikawa/apitest.git
+
+教科書
+https://diver.diveintocode.jp/textbooks/43
